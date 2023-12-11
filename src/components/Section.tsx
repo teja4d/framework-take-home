@@ -22,11 +22,11 @@ const Section: React.FC = () => {
       title: "Lorem ipsum dolor sit amet, consectetur ? ",
       content: (
         <p>
-          Lorem ipsum dolor sit amet, consectetur ?
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolor
         </p>
       ),
     },
-    { title: "Lorem ipsum dolor sit amet, consectetur ?", content: <p>Lorem ipsum dolor sit amet, consectetur ?</p> },
+    { title: "Lorem ipsum dolor sit amet, consectetur ?", content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolor</p> },
     {
       title: "Lorem ipsum dolor sit amet, consectetur ? ",
       content: (
@@ -39,7 +39,7 @@ const Section: React.FC = () => {
       title: "Lorem ipsum dolor sit amet, consectetur ? ",
       content: (
         <p>
-          Lorem ipsum dolor sit amet, consectetur ?
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
         </p>
       ),
     },
