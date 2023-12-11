@@ -7,11 +7,12 @@ interface IconButtonProps {
   textColor?: string;
   fontSize?: string;
   icon: ReactNode;
+  classNames?:string
 }
 
-const IconButton: FC<IconButtonProps> = ({ onClick,bgColor="", textColor="white", fontSize, icon }) => {
+const IconButton: FC<IconButtonProps> = ({ onClick,bgColor="", textColor="white", fontSize, icon ,classNames}) => {
   
-  const buttonStyles = `bg-${bgColor} text-${fontSize} text-${textColor} font-bold py-2 px-4 rounded-full`;
+  const buttonStyles = `bg-${bgColor} text-${fontSize} text-${textColor} font-bold py-2 px-4 rounded-full ${classNames}`;
   const iconStyles = `text-${fontSize}`;
 
 const handleIconClick = (e: React.MouseEvent<HTMLButtonElement>) => {

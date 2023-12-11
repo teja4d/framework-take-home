@@ -72,14 +72,13 @@ const Navbar: React.FC<NavbarProps> = ({ variant, brandName, isFooter = false })
 
         {/* Mobile Menu Button (Hidden on larger screens) */}
         {!isFooter && (
-          <div className="md:hidden float-right">
             <IconButton
               icon={<RxHamburgerMenu/>}
               textColor="black"
               onClick={toggleMobileMenu}
               fontSize="3xl"
+              classNames="md:hidden float-right"
             />
-          </div>
         )}
       </div>
 

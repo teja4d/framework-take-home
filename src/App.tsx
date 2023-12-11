@@ -13,14 +13,13 @@ function App() {
     <div className="App container mx-auto p-4 font-sans">
       <Navbar brandName="Cottage retreate" />
       <Section />
-      <div className="fixed bottom-8 right-8">
         <IconButton
           textColor="green-100"
           fontSize="4xl"
           icon={<AiOutlineArrowUp />}
           onClick={handleScrollToTop}
+          classNames="fixed bottom-8 right-8"
           />
-      </div>
       <Footer />
     </div>
   );
