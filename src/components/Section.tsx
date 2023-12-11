@@ -44,6 +44,7 @@ const Section: React.FC = () => {
       ),
     },
   ];
+  
 
   return (
     <section className="container mx-auto mt-20">

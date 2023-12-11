@@ -4,7 +4,7 @@ import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 const Button = ({ variant = 'outlined' }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
-
+  
   const buttonClasses = `inline-flex items-center px-4 py-1.5 border border-black text-sm leading-5 font-medium rounded-full focus:outline-none transition duration-150 ease-in-out 
     ${variant === 'filled' ? 'bg-black-600 text-white border-transparent' : 'bg-white text-gray-900 border border-gray-900'} 
     ${isHovered && variant === 'filled' ? 'hover:bg-gray-500' : ''} 
