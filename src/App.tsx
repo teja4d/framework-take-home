@@ -15,7 +15,7 @@ function App() {
       <Section />
         <IconButton
           textColor="green-100"
-          fontSize="4xl"
+          fontSize="3xl"
           icon={<AiOutlineArrowUp />}
           onClick={handleScrollToTop}
           classNames="fixed bottom-8 right-8"

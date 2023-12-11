@@ -109,7 +109,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose ,brandName }) =
             icon={<AiOutlineClose />}
             textColor="white"
             onClick={onClose}
-            fontSize="4xl"
+            fontSize="3xl"
             />
         </div>
 
