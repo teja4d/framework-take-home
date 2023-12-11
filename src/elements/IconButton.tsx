@@ -9,9 +9,9 @@ interface IconButtonProps {
   icon: ReactNode;
 }
 
-const IconButton: FC<IconButtonProps> = ({ onClick,bgColor="text-white", textColor="text-white", fontSize, icon }) => {
+const IconButton: FC<IconButtonProps> = ({ onClick,bgColor="", textColor="white", fontSize, icon }) => {
   
-  const buttonStyles = `bg-${bgColor} text-${textColor} font-bold py-2 px-4 rounded-full`;
+  const buttonStyles = `bg-${bgColor} text-${fontSize} text-${textColor} font-bold py-2 px-4 rounded-full`;
   const iconStyles = `text-${fontSize}`;
 
 const handleIconClick = (e: React.MouseEvent<HTMLButtonElement>) => {
