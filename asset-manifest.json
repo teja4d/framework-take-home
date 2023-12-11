@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/framework-take-home/static/css/main.80a521c5.css",
-    "main.js": "/framework-take-home/static/js/main.fbc83701.js",
+    "main.js": "/framework-take-home/static/js/main.ea2d514d.js",
     "static/js/787.fb74b681.chunk.js": "/framework-take-home/static/js/787.fb74b681.chunk.js",
     "static/media/image_3.jpg": "/framework-take-home/static/media/image_3.21dbb70dd58af89b23ed.jpg",
     "static/media/road.png": "/framework-take-home/static/media/road.85e3a9e8d17578642e27.png",
@@ -13,11 +13,11 @@
     "static/media/dining.png": "/framework-take-home/static/media/dining.ee84426abf9378b0bbe5.png",
     "index.html": "/framework-take-home/index.html",
     "main.80a521c5.css.map": "/framework-take-home/static/css/main.80a521c5.css.map",
-    "main.fbc83701.js.map": "/framework-take-home/static/js/main.fbc83701.js.map",
+    "main.ea2d514d.js.map": "/framework-take-home/static/js/main.ea2d514d.js.map",
     "787.fb74b681.chunk.js.map": "/framework-take-home/static/js/787.fb74b681.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80a521c5.css",
-    "static/js/main.fbc83701.js"
+    "static/js/main.ea2d514d.js"
   ]
 }
